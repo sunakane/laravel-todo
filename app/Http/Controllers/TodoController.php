@@ -18,6 +18,7 @@ class TodoController extends Controller
     public function all() {
         try {
             $alltodos = DB::table('todos')
+                ->where('valid', '=', true)
                 ->select()
                 ->get();
             return response()->json($alltodos);
@@ -37,12 +38,20 @@ class TodoController extends Controller
 
     public function delete(Request $request) {
         DB::table('todos')
-            ->delete((int) $request['id']);
+            ->where('id', '=', $request['id'])
+            ->update([
+                'valid' => false
+            ]);
         return response('deleted');
     }
 
-    public function complete(Request $request) {
-        //
+    public function toggleComplete(Request $request) {
+        DB::table('todos')
+            ->where('id', '=', $request['id'])
+            ->update([
+                'completed' => DB::raw('NOT completed')
+            ]);
+        return response('toggled');
     }
 }
 

@@ -25,4 +25,4 @@ Route::post('todos/create', [\App\Http\Controllers\TodoController::class, 'creat
 Route::get('todos', [\App\Http\Controllers\TodoController::class, 'all']);
 Route::post('todos/update', [\App\Http\Controllers\TodoController::class, 'update']);
 Route::delete('todos/delete', [\App\Http\Controllers\TodoController::class, 'delete']);
-Route::post('todos/complete', [\App\Http\Controllers\TodoController::class, 'complete']);
+Route::post('todos/complete', [\App\Http\Controllers\TodoController::class, 'toggleComplete']);
