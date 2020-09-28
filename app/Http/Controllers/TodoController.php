@@ -13,4 +13,11 @@ class TodoController extends Controller
         ]);
         return response()->json(['ok']);
     }
+
+    public function all() {
+        $alltodos = DB::table('todos')
+            ->select()
+            ->get();
+        return response()->json($alltodos);
+    }
 }
