@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6e16cd2-a220-48f1-ab86-7ef62cf12055" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-todo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-todo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TestController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601266199095</updated>
       <workItem from="1601266200682" duration="21000" />
-      <workItem from="1601266227720" duration="2285000" />
+      <workItem from="1601266227720" duration="3644000" />
     </task>
     <task id="LOCAL-00001" summary="Procfile">
       <created>1601267857499</created>
@@ -168,7 +165,42 @@
       <option name="project" value="LOCAL" />
       <updated>1601267857499</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="api test">
+      <created>1601268672825</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601268672825</updated>
+    </task>
+    <task id="LOCAL-00003" summary="get -&gt; post">
+      <created>1601268740805</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601268740805</updated>
+    </task>
+    <task id="LOCAL-00004" summary="simplified">
+      <created>1601269354833</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601269354833</updated>
+    </task>
+    <task id="LOCAL-00005" summary="simplified">
+      <created>1601269591906</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601269591906</updated>
+    </task>
+    <task id="LOCAL-00006" summary="simplified">
+      <created>1601269598048</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1601269598048</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,7 +208,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Procfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Procfile" />
+    <MESSAGE value="api test" />
+    <MESSAGE value="get -&gt; post" />
+    <MESSAGE value="simplified" />
+    <option name="LAST_COMMIT_MESSAGE" value="simplified" />
   </component>
   <component name="WindowStateProjectService">
     <state x="727" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601266520257">
@@ -199,9 +234,10 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="688" y="350" key="NewPhpFileDialog/0.23.1440.794/-1920.75.1920.1057@0.23.1440.794" timestamp="1601268515565" />
-    <state x="640" y="160" key="Vcs.Push.Dialog.v2" timestamp="1601267866110">
+    <state x="640" y="160" key="Vcs.Push.Dialog.v2" timestamp="1601269601397">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
+    <state x="640" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.794/-1920.75.1920.1057@0.23.1440.794" timestamp="1601269601397" />
     <state x="640" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.794@0.23.1440.794" timestamp="1601267866110" />
   </component>
 </project>
