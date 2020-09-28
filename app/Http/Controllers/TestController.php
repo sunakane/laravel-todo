@@ -1,11 +1,9 @@
 <?php
 
-
 namespace App\Http\Controllers;
 
-
-
-use Illuminate\Support\Facades\Request;
+use Illuminate\Database\Console\Migrations\ResetCommand;
+use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
