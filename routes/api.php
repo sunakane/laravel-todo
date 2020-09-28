@@ -22,5 +22,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 Route::post('test', [TestController::class, 'test']);
 
 Route::post('todos/create', [\App\Http\Controllers\TodoController::class, 'create']);;
-
 Route::get('todos', [\App\Http\Controllers\TodoController::class, 'all']);
+Route::post('todos/update', [\App\Http\Controllers\TodoController::class, 'update']);
+Route::delete('todos/delete', [\App\Http\Controllers\TodoController::class, 'delete']);
+Route::post('todos/complete', [\App\Http\Controllers\TodoController::class, 'complete']);
