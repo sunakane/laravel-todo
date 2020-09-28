@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6e16cd2-a220-48f1-ab86-7ef62cf12055" name="Default Changelist" comment="added Todo">
+    <list default="true" id="f6e16cd2-a220-48f1-ab86-7ef62cf12055" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TodoController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_28_052004_create_todos_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_28_052004_create_todos_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TodoController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TodoController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601266199095</updated>
       <workItem from="1601266200682" duration="21000" />
-      <workItem from="1601266227720" duration="5023000" />
+      <workItem from="1601266227720" duration="8319000" />
     </task>
     <task id="LOCAL-00001" summary="Procfile">
       <created>1601267857499</created>
@@ -216,7 +217,42 @@
       <option name="project" value="LOCAL" />
       <updated>1601270521478</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="create">
+      <created>1601271403548</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601271403548</updated>
+    </task>
+    <task id="LOCAL-00010" summary="create">
+      <created>1601271686712</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601271686712</updated>
+    </task>
+    <task id="LOCAL-00011" summary="default">
+      <created>1601271694733</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601271694733</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fetch all">
+      <created>1601281315489</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601281315489</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <created>1601282243314</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601282243314</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +265,11 @@
     <MESSAGE value="simplified" />
     <MESSAGE value="modernised" />
     <MESSAGE value="added Todo" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Todo" />
+    <MESSAGE value="create" />
+    <MESSAGE value="default" />
+    <MESSAGE value="fetch all" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="727" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601266520257">
@@ -252,10 +292,14 @@
       <screen x="0" y="23" width="1440" height="794" />
     </state>
     <state x="688" y="350" key="NewPhpFileDialog/0.23.1440.794/-1920.75.1920.1057@0.23.1440.794" timestamp="1601268515565" />
-    <state x="640" y="160" key="Vcs.Push.Dialog.v2" timestamp="1601270579355">
+    <state x="640" y="160" key="Vcs.Push.Dialog.v2" timestamp="1601282246859">
       <screen x="0" y="23" width="1440" height="794" />
     </state>
-    <state x="640" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.794/-1920.75.1920.1057@0.23.1440.794" timestamp="1601270579355" />
+    <state x="640" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.794/-1920.75.1920.1057@0.23.1440.794" timestamp="1601282246859" />
     <state x="640" y="160" key="Vcs.Push.Dialog.v2/0.23.1440.794@0.23.1440.794" timestamp="1601267866110" />
+    <state x="503" y="141" width="670" height="676" key="search.everywhere.popup" timestamp="1601281744100">
+      <screen x="0" y="23" width="1440" height="794" />
+    </state>
+    <state x="503" y="141" width="670" height="676" key="search.everywhere.popup/0.23.1440.794/-1920.75.1920.1057@0.23.1440.794" timestamp="1601281744100" />
   </component>
 </project>
