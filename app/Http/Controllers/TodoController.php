@@ -41,7 +41,7 @@ class TodoController extends Controller
             ->update([
                 'valid' => false
             ]);
-        return response('deleted');
+        return response()->json(['deleted' => $request['id']]);
     }
 
     public function toggleComplete(Request $request) {
