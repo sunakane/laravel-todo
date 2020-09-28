@@ -8,10 +8,10 @@ use Illuminate\Support\Facades\DB;
 class TodoController extends Controller
 {
     public function create(Request $request) {
-        DB::table('todos')->insert([
+        $id = DB::table('todos')->insertGetId([
             'title' => $request['title']
         ]);
-        return response()->json(['ok']);
+        return response()->json(['newid' => $id]);
     }
 
     public function all() {
