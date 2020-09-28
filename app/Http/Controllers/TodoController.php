@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use mysql_xdevapi\Table;
 
 class TodoController extends Controller
 {
@@ -18,7 +17,7 @@ class TodoController extends Controller
     public function all() {
         try {
             $alltodos = DB::table('todos')
-                ->where('valid', '=', true)
+                ->where('valid', '=', 1)
                 ->select()
                 ->get();
             return response()->json($alltodos);
