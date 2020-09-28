@@ -17,8 +17,7 @@ class TodoController extends Controller
     public function all() {
         try {
             $alltodos = DB::table('todos')
-                ->where('valid', '=', 1)
-                ->select()
+                ->where('valid', '=', true)
                 ->get();
             return response()->json($alltodos);
         } catch (\Exception $e) {
