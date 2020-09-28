@@ -16,8 +16,8 @@ class CreateTodosTable extends Migration
         Schema::create('todos', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->boolean('completed')->default(false);
-            $table->boolean('valid')->default(true);
+            $table->boolean('completed')->default(false)->change();
+            $table->boolean('valid')->default(true)->change();
             $table->timestamps();
         });
     }
