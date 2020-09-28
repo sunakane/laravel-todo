@@ -20,3 +20,5 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('test', [TestController::class, 'test']);
+
+Route::post('todos/create', [\App\Http\Controllers\TodoController::class, 'create']);;
